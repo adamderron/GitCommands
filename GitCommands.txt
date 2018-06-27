@@ -23,20 +23,20 @@ git stash - stashing files to finish them later
 
 git add . - stages new and modified, without deleted
 
-git commit -m "your message" - Record changes to the repository without using Vim
+git commit -m "your message" - record changes to the repository without using Vim
 
-git push - push changes from local to remote
+git push - push changes from local repo to remote
 
 
 
 >>Branches<<
 
 
-git checkout - change branch
+git checkout <branch name> - change branch
 
 git branch --set-upstream-to=origin/master <branch name> - access your branch
 
-git push -f origin <branch name> - force push
+git push -f origin <branch name> - force push to branch
 
 
 
