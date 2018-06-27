@@ -1,0 +1,43 @@
+>>Misc<<
+
+
+pwd - show current file path
+
+git status - status
+
+history -c - clear commands history
+
+clear - clear console
+
+
+
+>>File control<<
+
+
+git clone - create local copy from remote repo
+
+git pull - pulling change from remote branch
+
+git stash - stashing files to finish them later
+
+git add . - stages new and modified, without deleted
+
+git commit -m "your message"
+
+git push - push changes from local to remote
+
+
+
+>>Branches<<
+
+
+git checkout - change branch
+
+git branch --set-upstream-to=origin/master <branch name> - access your branch
+
+git push -f origin <branch name> - force push
+
+
+
+
+
