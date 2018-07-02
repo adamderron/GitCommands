@@ -1,14 +1,24 @@
 >>Misc<<
 
 
+git status - status
 
 pwd - show current file path
-
-git status - status
 
 history -c - clear commands history
 
 clear - clear console
+
+
+
+>>SSH key<<
+
+
+ssh-keygen -t rsa -b 4096 -C "your_email" - genrate ssh key
+
+eval $(ssh-agent -s) - checks if ssh-agent is running
+
+ssh-add ~/.ssh/(your private key file name) - adds your private key to the ssh-agent
 
 
 
