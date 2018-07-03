@@ -50,6 +50,20 @@ git push -f origin <branch name> - force push to branch
 
 
 
+>>Fork<<
+
+
+git remote -v - list current configured remote repo for fork
+
+git remote add upstream https://github.com/(OWNER)/(ORIGINAL_REPOSITORY).git - specifies new remote upstream that will be synced with fork
+
+git fetch upstream - fetches branches and their commits from the upstream repo
+
+git merge upstream/master - merges changes from upstream/master into your local master branch
+
+
+
+
 >>How to exit Vim<<
 
 
